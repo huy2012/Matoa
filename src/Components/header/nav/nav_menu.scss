@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.nav {
+    font-family: 'Taviraj', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin: 30px 0;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin: 0 10px;
+
+            a {
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 34px;
+                letter-spacing: 0.02em;
+
+                color: #333333;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+
+    div:nth-child(3) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 260px;
+
+        div{
+            img{
+                margin-right: 5px;
+            }
+        }
+
+        a{
+            // margin-left: 20px;
+        }
+
+        a:nth-child(3) {
+            background-color: #F1DDC9;
+            border-radius: 40px;
+            width: 46px;
+            height: 46px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            img{
+                margin-top: 10px;
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}

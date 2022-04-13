@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Banner {
+    margin-top: 50px;
+    width: 100%;
+
+    background-image: url("../../../assets//bgbanner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 505px;
+    display: flex;
+
+    img {
+        transform: translateY(16%);
+    }
+
+    div {
+        margin-left: 47px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin-top: 56px;
+            margin-bottom: 0;
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 80px;
+            /* or 133% */
+
+            letter-spacing: 0.02em;
+
+            color: #333333;
+        }
+
+        hr {
+            border: 1px solid #000000;
+            width: 95px;
+            margin: 0;
+        }
+
+        .btns {
+            margin: 0;
+            margin-top: 44px;
+            display: flex;
+            flex-direction: row;
+
+            a {
+                width: 208px;
+                height: 62px;
+                background: #D84727;
+                background-color: #D84727;
+                margin-right: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                align-self: center;
+
+                .btn_Add_Card {
+                    font-family: 'Taviraj';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 34px;
+                    letter-spacing: 0.02em;
+
+                    color: #FFFFFF;
+                    border: none;
+                    width: 108px;
+                    height: 34px;
+                    font-family: 'Taviraj';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 34px;
+                    letter-spacing: 0.02em;
+                    // margin-top: 13px;
+                    // margin-left: 10px;
+                    color: #FFFFFF;
+                    
+                }
+
+                img:first-child{
+                    margin-bottom: 10px;
+                    margin-right: 15px;
+                }
+            }
+
+            a:nth-child(2) {
+                background-color: transparent;
+                border: 2px solid #D84727;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                align-self: flex-end;
+                width: 140px;
+                height: 62px;
+
+                img{
+                    margin: 0;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        p {
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.03em;
+
+            color: #333333;
+        }
+
+        span {
+            width: 74px;
+            height: 27px;
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            letter-spacing: 0.03em;
+
+            color: #333333;
+            border-bottom: 1px solid #000000;
+        }
+
+    }
+
+    div:nth-child(3) {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+        margin-left: 90px;
+        // margin-top: 30px;
+
+        a {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #D84727;
+            box-sizing: border-box;
+            // position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            align-self: flex-end;
+            padding-bottom: 10px;
+            padding-right: 8px;
+        }
+
+        a:nth-child(2){
+            margin-left: 16px;
+            background: #D84727;
+            padding-right: 0;
+        }
+    }
+}
