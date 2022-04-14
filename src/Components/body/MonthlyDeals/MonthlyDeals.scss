@@ -1,0 +1,92 @@
+.MonthlyDeals {
+    margin-top: 92px;
+    margin-bottom: 200px;
+
+    .MonthlyDeals_title {
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #333333;
+    }
+
+    hr {
+        width: 128px;
+        border: 1px solid #000000;
+        margin: 0;
+    }
+
+    .listWatch {
+        margin-top: 100px;
+        display: flex;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 255px;
+
+            background: #FFFFFF;
+            padding: 0 20px 20px 20px;
+
+            img{
+                transform: translateY(-40px);
+            }
+
+            .watch_title {
+                margin-top: 32px;
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                /* identical to box height, or 133% */
+
+
+                color: #333333;
+
+            }
+
+            span:nth-child(3) {
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+
+
+                color: #777777;
+
+            }
+
+            span:nth-child(4) {
+                margin-top: 6px;
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+
+
+                color: #777777;
+                text-decoration: line-through;
+            }
+
+            .watch_price {
+                margin-top: 4px;
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 32px;
+                /* identical to box height, or 133% */
+
+
+                color: #333333;
+            }
+        }
+    }
+}
