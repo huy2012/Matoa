@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.category {
+    margin-top: 110px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .watch {
+        .category_title {
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+            color: #333333;
+        }
+
+        hr {
+            margin: 0;
+            margin-top: 8px;
+            width: 65px;
+            border: 1px solid #333333;
+        }
+
+        div {
+            margin-top: 52px;
+
+
+            div {
+                margin: 0;
+                margin-bottom: 32px;
+                display: flex;
+
+                .category_img {
+                    width: 131px;
+                    height: 131px;
+                    background: #F1DDC9;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 0;
+                }
+
+                div {
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 24px;
+
+                    span:first-child {
+                        width: 190px;
+                        font-family: 'Taviraj';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 32px;
+                        letter-spacing: 0.02em;
+                        color: #333333;
+                    }
+
+                    .category_price {
+                        margin-top: 4px;
+                        font-family: 'Taviraj';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 28px;
+                        line-height: 40px;
+                        letter-spacing: 0.02em;
+                        color: #222222;
+                    }
+
+                    .category_sales {
+                        margin-top: 8px;
+                        font-family: 'Taviraj';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #777777;
+                        text-decoration: line-through;
+                        text-decoration-color: #D93F3F;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.category_btn {
+    display: flex;
+    margin-top: 55px;
+
+    hr{
+        border: 0.1px solid #999999;
+        width: 391px;
+        height: 0;
+        margin: auto 0;
+
+    }
+
+    div{
+        width: 100%;
+        width: 272px;
+        height: 66px;
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: 0.03em;
+        color: #D84727;
+        border: 1px solid #D84727;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}

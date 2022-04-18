@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .MonthlyDeals {
     margin-top: 92px;
-    margin-bottom: 200px;
+    margin-bottom: 110px;
 
     .MonthlyDeals_title {
         font-family: 'Taviraj';
@@ -21,17 +24,18 @@
     .listWatch {
         margin-top: 100px;
         display: flex;
+        justify-content: space-between;
 
-        div {
+        .watch {
             display: flex;
             flex-direction: column;
-            width: 255px;
-
+            width: 240px;
             background: #FFFFFF;
             padding: 0 20px 20px 20px;
 
-            img{
+            img {
                 transform: translateY(-40px);
+                cursor: pointer;
             }
 
             .watch_title {
@@ -41,11 +45,7 @@
                 font-weight: 500;
                 font-size: 24px;
                 line-height: 32px;
-                /* identical to box height, or 133% */
-
-
                 color: #333333;
-
             }
 
             span:nth-child(3) {
@@ -54,11 +54,7 @@
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
-                /* identical to box height, or 150% */
-
-
                 color: #777777;
-
             }
 
             span:nth-child(4) {
@@ -68,11 +64,9 @@
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
-                /* identical to box height, or 150% */
-
-
                 color: #777777;
                 text-decoration: line-through;
+                text-decoration-color: #D93F3F;
             }
 
             .watch_price {
@@ -82,10 +76,54 @@
                 font-weight: 400;
                 font-size: 24px;
                 line-height: 32px;
-                /* identical to box height, or 133% */
-
-
                 color: #333333;
+            }
+
+            .addCard {
+                margin-top: 24px;
+                flex-direction: row;
+                padding: 0;
+                display: none;
+
+                img {
+                    width: 39px;
+                    height: 39px;
+                    border: 1px solid #D84727;
+                    box-sizing: border-box;
+                    padding: 6px;
+                    transform: translateY(0px);
+                    margin-right: 8px;
+                }
+
+                .btnAddCard {
+                    background-color: #D84727;
+                    align-self: center;
+                    padding: 7.5px 53.5px;
+                    font-family: 'Taviraj';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        @keyframes showCard {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        div:hover {
+            .addCard {
+                display: flex;
+                animation: showCard 1s;
             }
         }
     }
