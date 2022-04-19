@@ -71,23 +71,21 @@
             }
         }
 
-        div:nth-child(2) {
-            position: relative;
+        .recentNews_img {
+            background-color: green;
+            display: flex;
 
-            div {
-                background-color: url('../../../assets//bgRecentNews.png');
-                img {
-                    width: 627.54px;
-                    // height: 626px;
-                }
+            .img_bg{
+                position: relative;
+                z-index: 4;
             }
 
-            // img{
-            //     position: absolute;
-
-            //     right: 0;
-            //     top: 0;
-            // }
+            .img_design{
+                position: absolute;
+                z-index: 2;
+                margin-top: -70px;
+                right: 0px;
+            }
 
         }
     }

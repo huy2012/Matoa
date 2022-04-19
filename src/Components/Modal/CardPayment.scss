@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.card_info_payment {
+    display: flex;
+    align-items: center;
+
+    span:first-child {
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #333333;
+        margin-right: 32px;
+    }
+
+    input {
+        background: #FFFFFF;
+        border: 0.3px solid #333333;
+        box-sizing: border-box;
+        width: 255px;
+        height: 42px;
+        padding: 9px 125px 9px 16px;
+    }
+
+    span:nth-child(3) {
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #01522D;
+        margin-left: 16px;
+    }
+
+    div:nth-child(4) {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span:first-child {
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #333333;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: auto;
+
+            span:first-child {
+                margin: 0;
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                color: #777777;
+                text-decoration: line-through;
+                text-decoration-color: #D93F3F;
+            }
+
+            span:nth-child(2) {
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0.02em;
+                color: #333333;
+            }
+        }
+    }
+}
+
+.btn_checkOut {
+    width: 100%;
+    margin-top: 34px;
+    padding: 22px 463px;
+    border: none;
+    background: #D84727;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

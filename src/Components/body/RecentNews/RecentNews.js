@@ -16,17 +16,13 @@ const RecentNews = () => {
           <a>Discover</a>
         </div>
 
-        <div>
-          <div>
-            <img src={image13} />
-          </div>
-          {/* <img src={image14} /> */}
+        <div className='recentNews_img'>
+          <img src={image13} className='img_bg' />
+
+          <img src={image14} className='img_design' />
         </div>
       </div>
 
-      <div>
-        
-      </div>
     </div>
   );
 };

@@ -1,13 +1,10 @@
+import { Routes, Route, Navigate } from "react-router-dom";
+
 import NavMenu from './Components/header/nav/nav_menu';
-import Banner from './Components/header/Banner/banner';
-import Introduce from './Components/body/Introduce/Introduce';
-import MonthlyDeals from './Components/body/MonthlyDeals/MonthlyDeals';
-import RecentNews from './Components/body/RecentNews/RecentNews';
-import Category from './Components/body/Category/Category';
-import Testimonials from './Components/body/Testimonials/Testimonials';
-import Instagram from './Components/Instagram/Instagram';
-import PaymentSupport from './Components/body/PaymentSupport/PaymentSupport';
-import Footer from './Components/body/footer/Footer';
+import Index from "./pages/Index/Index";
+import PaymentSupport from "./Components/body/PaymentSupport/PaymentSupport";
+import Footer from "./Components/body/footer/Footer";
+import DetailWatch from "./pages/DetailWatch/DetailWatch";
 import './App.css';
 import './App.scss'
 
@@ -17,24 +14,18 @@ function App() {
       <div className='app'>
         <NavMenu />
 
-        <Banner />
-
-        <Introduce />
-
-        <MonthlyDeals />
-
-        <RecentNews />
-
-        <Category />
-
-        <Testimonials />
-
-        <Instagram />
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/watchDetail" element={<DetailWatch />} />
+          <Route
+            path="*"
+            element={<Navigate to="/" replace />} />
+        </Routes>
       </div>
 
       <div className='footer'>
         <PaymentSupport />
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

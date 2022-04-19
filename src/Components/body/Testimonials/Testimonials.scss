@@ -7,9 +7,28 @@
 
     .testimonials_view {
         margin-top: 60px;
+        width: 40%;
 
-        div {
-            margin-top: 30px;
+        div:first-child{
+            background-color: green;
+            display: flex;
+            position: relative;
+
+            img:first-child{
+                position: absolute;
+                z-index: 4;
+            }
+
+            .testimonials_bg{
+                position: absolute;
+                z-index: 2;
+                margin-left: -164px;
+                margin-top: -70px;
+            }
+        }
+
+        div:nth-child(2) {
+            margin-top: 350px;
             display: flex;
             justify-content: flex-start;
             align-content: center;

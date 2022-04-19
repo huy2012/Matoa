@@ -1,3 +1,5 @@
+import { Link, useNavigate  } from "react-router-dom";
+
 import './MonthlyDeals.scss'
 import SingoMaple from '../../../assets/image 9.png';
 import SingoEbony from '../../../assets/image 10.png';
@@ -6,6 +8,9 @@ import WayKambasMiniMaple from '../../../assets/image 12.png';
 import love from '../../../assets/love.svg';
 
 const MonthlyDeals = () => {
+
+  let navigate = useNavigate();
+
   return (
     <div className='MonthlyDeals'>
       <span className='MonthlyDeals_title' >Monthly Deals</span>
@@ -14,7 +19,7 @@ const MonthlyDeals = () => {
       <div className='listWatch'>
 
         <div className='watch' >
-          <img src={SingoMaple} />
+          <img src={SingoMaple} onClick={() => navigate("/watchDetail")} />
           <span className='watch_title' >Singo Maple</span>
           <span>20% Off</span>
 
