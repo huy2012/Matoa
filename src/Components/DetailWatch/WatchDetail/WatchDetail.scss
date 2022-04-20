@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.WatchDetail {
+    margin-top: 100px;
+
+    hr {
+        margin: 0;
+        padding: 0;
+        margin-top: 16px;
+    }
+
+    div:first-child {
+        display: flex;
+
+        span {
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            color: #999999;
+            margin-right: 60px;
+        }
+
+        span:first-child {
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            color: #D84727;
+            border-bottom: 1px solid #D84727;
+            margin: 0 60px;
+        }
+    }
+
+    .info_detail {
+        margin: 0 50px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: 'Taviraj';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            color: #333333;
+        margin-bottom: 8px;
+
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 24px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.02em;
+            color: #555555;
+        }
+
+        .des_end{
+            margin: 0%;
+        }
+
+        img{
+            margin: 0 auto;
+        }
+    }
+}

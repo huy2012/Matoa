@@ -93,7 +93,7 @@ const Card_Modal = () => {
                 </div>
             </div>
 
-            <button className='btn_checkOut'>Checkout</button>
+            <button className='btn_checkOut' onClick={() => alert("ok")} >Checkout</button>
 
         </div>
     );

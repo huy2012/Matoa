@@ -41,8 +41,8 @@ const NavMenu = () => {
                     <a>Log In</a>
                 </div>
 
-                <a>
-                    <img src={iconCard} onClick={() => setIsModalVisible(isModalVisible ? false : true)} />
+                <a onClick={() => setIsModalVisible(isModalVisible ? false : true)}>
+                    <img src={iconCard}  />
 
                     <Modal  visible={isModalVisible} footer={null} onCancel={() => setIsModalVisible(isModalVisible ? false : true)} width={1110} closable={false} >
                         <Card_Modal />

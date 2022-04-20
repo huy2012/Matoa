@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.watchProduct {
+    position: relative;
+
+    .watchProduct_title,
+    .watchProduct_title2 {
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        color: #333333;
+    }
+
+    .watchProduct_title2 {
+        color: #e0735a;
+    }
+
+    div:nth-child(4) {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 1110px;
+        height: 548px;
+        background: #F1DDC9;
+        margin-left: -620px;
+    }
+
+    div {
+        position: relative;
+        z-index: 4;
+        margin-top: 45px;
+        display: flex;
+
+        .watchProduct_list {
+            display: flex;
+            flex-direction: column;
+            width: 7%;
+            margin-left: 130px;
+            margin-top: 0;
+
+            img {
+                margin-bottom: 24px;
+            }
+        }
+
+        .watchLarge {
+            margin-left: 60px;
+        }
+
+        .watch_info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 40px;
+            margin-top: 0;
+
+            .watch_info_title {
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 60px;
+                line-height: 80px;
+                letter-spacing: 0.02em;
+                color: #333333;
+            }
+
+            .watches_sales {
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.02em;
+                color: #777777;
+                text-decoration: line-through;
+                text-decoration-color: #D93F3F;
+            }
+
+            .watches_price {
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 41px;
+                letter-spacing: 0.02em;
+                color: #333333;
+            }
+
+            label {
+                margin-top: 16px;
+                font-family: 'Taviraj';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 27px;
+                letter-spacing: 0.02em;
+                color: #333333;
+            }
+
+            .watches_pay {
+                margin-top: 40px;
+                display: flex;
+                align-items: center;
+
+                img:first-child {
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid #777777;
+                    box-sizing: border-box;
+                    margin-right: 16px;
+                    padding: 4px;
+                }
+
+                span:nth-child(2) {
+                    font-family: 'Taviraj';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 61px;
+                    letter-spacing: 0.02em;
+                    color: #000000;
+                }
+
+                img:nth-child(3) {
+                    width: 30px;
+                    height: 30px;
+                    background: #D84727;
+                    padding: 6px;
+                    margin-left: 16px;
+                    margin-right: 36px;
+                }
+
+                a:nth-child(4) {
+                    width: 208px;
+                    height: 62px;
+                    background: #D84727;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: 'Taviraj';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 34px;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                    margin-right: 16px;
+                }
+
+                img:nth-child(5) {
+                    width: 140px;
+                    height: 62px;
+                    border: 2px solid #D84727;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
