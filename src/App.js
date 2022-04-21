@@ -1,4 +1,4 @@
-// import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import NavMenu from './Components/header/nav/nav_menu';
 import Index from "./pages/Index/Index";
