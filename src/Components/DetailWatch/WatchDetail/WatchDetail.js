@@ -1,6 +1,8 @@
 import './WatchDetail.scss'
 import './RelateProducts.scss'
 import image40 from '../../../assets/image 40.png';
+import image41 from '../../../assets/image 41 (1).png';
+import image42 from '../../../assets/image 42.png';
 import image9 from '../../../assets/image 9.png';
 
 const WatchDetail = () => {
@@ -64,17 +66,16 @@ const WatchDetail = () => {
                         <span className='relateProducts_sale'>Rp 1.500.000</span>
                         <span className='relateProducts_price'>Rp 1.264.000</span>
                     </div>
-                    <div>
-                        <button>20% OFF</button>
-                        <img src={image9} />
 
-                        <span>Singo Maple</span>
-                        <span className='relateProducts_sale'>Rp 1.500.000</span>
+                    <div>
+                        <button  style={{backgroundColor : "#01522D"}} >NEW</button>
+                        <img src={image41} />
+
+                        <span>Sikka (Ebony & <br/> Maple)</span>
                         <span className='relateProducts_price'>Rp 1.264.000</span>
                     </div>
                     <div>
-                        <button>20% OFF</button>
-                        <img src={image9} />
+                        <img src={image42} />
 
                         <span>Singo Maple</span>
                         <span className='relateProducts_sale'>Rp 1.500.000</span>

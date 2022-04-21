@@ -149,7 +149,7 @@ const Category = () => {
 
             <div className='category_btn'>
                 <hr />
-                <div  >
+                <div>
                     <a>See More</a>
                 </div>
                 <hr />

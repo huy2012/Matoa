@@ -1,4 +1,4 @@
-import { Link, useNavigate  } from "react-router-dom";
+import { useNavigate  } from "react-router-dom";
 
 import './MonthlyDeals.scss'
 import SingoMaple from '../../../assets/image 9.png';
