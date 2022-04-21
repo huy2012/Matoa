@@ -6,7 +6,7 @@ import PaymentSupport from "./Components/body/PaymentSupport/PaymentSupport";
 import Footer from "./Components/body/footer/Footer";
 import DetailWatch from "./pages/DetailWatch/DetailWatch";
 import './App.css';
-// import './App.scss'
+import './App.scss'
 
 function App() {
   return (
